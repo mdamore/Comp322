@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9CFC48318F03EFB00B580C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9CFC48218F03EFB00B580C4 /* main.cpp */; };
 		A9CFC48518F03EFB00B580C4 /* _22Assignment4.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9CFC48418F03EFB00B580C4 /* _22Assignment4.1 */; };
+		A9CFC48E18F03F9900B580C4 /* simpleFinalTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9CFC48B18F03F9900B580C4 /* simpleFinalTest.cpp */; };
+		A9CFC48F18F03F9900B580C4 /* wikiFinal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9CFC48C18F03F9900B580C4 /* wikiFinal.cpp */; };
+		A9CFC49518F0402300B580C4 /* wikiFinalStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9CFC49318F0402300B580C4 /* wikiFinalStudent.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +28,11 @@
 
 /* Begin PBXFileReference section */
 		A9CFC47F18F03EFB00B580C4 /* 322Assignment4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 322Assignment4; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9CFC48218F03EFB00B580C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A9CFC48418F03EFB00B580C4 /* _22Assignment4.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _22Assignment4.1; sourceTree = "<group>"; };
+		A9CFC48B18F03F9900B580C4 /* simpleFinalTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = simpleFinalTest.cpp; path = ../../../Downloads/cs322_hw4/simpleFinalTest.cpp; sourceTree = "<group>"; };
+		A9CFC48C18F03F9900B580C4 /* wikiFinal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wikiFinal.cpp; path = ../../../Downloads/cs322_hw4/wikiFinal.cpp; sourceTree = "<group>"; };
+		A9CFC48D18F03F9900B580C4 /* wikiFinal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wikiFinal.h; path = ../../../Downloads/cs322_hw4/wikiFinal.h; sourceTree = "<group>"; };
+		A9CFC49318F0402300B580C4 /* wikiFinalStudent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wikiFinalStudent.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +65,10 @@
 		A9CFC48118F03EFB00B580C4 /* 322Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
-				A9CFC48218F03EFB00B580C4 /* main.cpp */,
+				A9CFC48B18F03F9900B580C4 /* simpleFinalTest.cpp */,
+				A9CFC48C18F03F9900B580C4 /* wikiFinal.cpp */,
+				A9CFC48D18F03F9900B580C4 /* wikiFinal.h */,
+				A9CFC49318F0402300B580C4 /* wikiFinalStudent.cpp */,
 				A9CFC48418F03EFB00B580C4 /* _22Assignment4.1 */,
 			);
 			path = 322Assignment4;
@@ -117,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9CFC48318F03EFB00B580C4 /* main.cpp in Sources */,
+				A9CFC48E18F03F9900B580C4 /* simpleFinalTest.cpp in Sources */,
+				A9CFC49518F0402300B580C4 /* wikiFinalStudent.cpp in Sources */,
+				A9CFC48F18F03F9900B580C4 /* wikiFinal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
